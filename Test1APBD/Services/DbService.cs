@@ -5,7 +5,7 @@ using Test1APBD.Models.DTOs;
 
 namespace Test1APBD.Services
 {
-    public class DbService : IDbService
+    public class DbService : IDbService 
     {
         private readonly string _connectionString;
         
